@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" role="img" aria-label="Capa espacial para calculadora de metas Fechamento Diário">
+  <defs>
+    <radialGradient id="space" cx="50%" cy="34%" r="74%">
+      <stop offset="0%" stop-color="#233f88"/>
+      <stop offset="52%" stop-color="#081229"/>
+      <stop offset="100%" stop-color="#01040b"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111c38"/>
+      <stop offset="100%" stop-color="#060b18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#65a6ff"/>
+      <stop offset="55%" stop-color="#8e78ff"/>
+      <stop offset="100%" stop-color="#72e2dc"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffbe6f"/>
+      <stop offset="100%" stop-color="#81d798"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#000" flood-opacity=".52"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="625" fill="url(#space)"/>
+  <g fill="#fff" opacity=".7">
+    <circle cx="92" cy="96" r="2"/>
+    <circle cx="214" cy="244" r="1.4"/>
+    <circle cx="374" cy="122" r="1.8"/>
+    <circle cx="650" cy="92" r="2.2"/>
+    <circle cx="842" cy="206" r="1.5"/>
+    <circle cx="910" cy="420" r="1.8"/>
+  </g>
+  <g opacity=".38" fill="#dbe8ff">
+    <circle cx="462" cy="304" r="6"/>
+    <circle cx="502" cy="286" r="7"/>
+    <circle cx="544" cy="306" r="5"/>
+    <circle cx="586" cy="336" r="4"/>
+    <circle cx="466" cy="370" r="4"/>
+    <circle cx="514" cy="388" r="5"/>
+    <circle cx="562" cy="382" r="4"/>
+  </g>
+  <path d="M116 344C276 252 430 262 588 340C734 412 858 376 944 286" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".32"/>
+  <g filter="url(#shadow)">
+    <rect x="238" y="92" width="524" height="420" rx="24" fill="rgba(6,12,28,.82)" stroke="#344b7a"/>
+    <rect x="278" y="138" width="444" height="86" rx="16" fill="url(#panel)" stroke="#455b88"/>
+    <rect x="278" y="250" width="444" height="124" rx="16" fill="url(#panel)" stroke="#455b88"/>
+    <rect x="278" y="406" width="444" height="66" rx="16" fill="#09142a" stroke="#314a75"/>
+  </g>
+  <g fill="#f5f7ff">
+    <rect x="318" y="162" width="134" height="12" rx="6" opacity=".9"/>
+    <rect x="318" y="192" width="230" height="9" rx="4.5" opacity=".55"/>
+    <rect x="318" y="278" width="146" height="12" rx="6" opacity=".9"/>
+    <rect x="318" y="318" width="260" height="38" rx="12" opacity=".12"/>
+  </g>
+  <g>
+    <rect x="590" y="154" width="96" height="34" rx="10" fill="#2a2a27" stroke="#ffbe6f" stroke-opacity=".46"/>
+    <rect x="596" y="289" width="96" height="44" rx="12" fill="#f5f7ff"/>
+    <rect x="612" y="166" width="50" height="10" rx="5" fill="#f5f7ff"/>
+    <rect x="616" y="306" width="50" height="9" rx="4.5" fill="#020711"/>
+  </g>
+  <g filter="url(#glow)" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M350 444L406 444L438 430L486 452L536 414L600 428L652 394"/>
+  </g>
+  <g transform="translate(328 392)">
+    <circle cx="0" cy="0" r="30" fill="#65a6ff" opacity=".85" filter="url(#glow)"/>
+    <circle cx="104" cy="0" r="30" fill="#8e78ff" opacity=".85" filter="url(#glow)"/>
+    <circle cx="208" cy="0" r="30" fill="url(#gold)" opacity=".9" filter="url(#glow)"/>
+    <g fill="#020711" font-family="Arial, sans-serif" font-size="18" font-weight="700">
+      <text x="-16" y="7">M</text>
+      <text x="92" y="7">R</text>
+      <text x="196" y="7">%</text>
+    </g>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="3" opacity=".58">
+    <circle cx="500" cy="308" r="164"/>
+    <ellipse cx="500" cy="308" rx="228" ry="72" transform="rotate(-8 500 308)"/>
+  </g>
+  <path d="M238 512C372 462 526 488 642 432C706 402 742 390 762 376V625H238Z" fill="url(#accent)" opacity=".08"/>
+</svg>

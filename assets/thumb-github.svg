@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" role="img" aria-label="Capa espacial para perfil no GitHub">
+  <defs>
+    <radialGradient id="space" cx="48%" cy="36%" r="72%">
+      <stop offset="0%" stop-color="#13284d"/>
+      <stop offset="58%" stop-color="#050b18"/>
+      <stop offset="100%" stop-color="#010307"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#65a6ff"/>
+      <stop offset="55%" stop-color="#8e78ff"/>
+      <stop offset="100%" stop-color="#72e2dc"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111f38"/>
+      <stop offset="100%" stop-color="#07101d"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="625" fill="url(#space)"/>
+  <g fill="#fff" opacity=".72">
+    <circle cx="92" cy="92" r="2"/>
+    <circle cx="172" cy="310" r="1.5"/>
+    <circle cx="306" cy="130" r="1.8"/>
+    <circle cx="548" cy="94" r="1.6"/>
+    <circle cx="812" cy="158" r="2.3"/>
+    <circle cx="910" cy="384" r="1.5"/>
+    <circle cx="724" cy="510" r="1.8"/>
+  </g>
+  <g opacity=".55" fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M144 430C290 276 462 248 638 334C744 386 832 372 902 288" opacity=".34"/>
+    <path d="M168 178C310 266 454 272 600 194C708 136 798 164 880 238" opacity=".24"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="164" y="118" width="672" height="390" rx="24" fill="rgba(6,15,29,.74)" stroke="#243c63"/>
+    <rect x="202" y="160" width="250" height="126" rx="18" fill="url(#panel)" stroke="#2a436a"/>
+    <rect x="548" y="160" width="250" height="126" rx="18" fill="url(#panel)" stroke="#2a436a"/>
+    <rect x="202" y="324" width="596" height="116" rx="18" fill="url(#panel)" stroke="#2a436a"/>
+  </g>
+  <g stroke="url(#line)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".9">
+    <path d="M270 224L312 190L354 224"/>
+    <path d="M312 190V258"/>
+    <path d="M626 202L670 246L736 184"/>
+    <path d="M286 382H714"/>
+    <path d="M286 414H540"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="500" cy="278" r="70" fill="#dbe8ff"/>
+    <path d="M395 392C409 326 448 300 500 300S591 326 605 392H395Z" fill="#dbe8ff"/>
+  </g>
+  <g opacity=".5" fill="none" stroke="url(#line)" stroke-width="3">
+    <circle cx="500" cy="300" r="134"/>
+    <ellipse cx="500" cy="300" rx="190" ry="70" transform="rotate(-18 500 300)"/>
+  </g>
+  <circle cx="662" cy="232" r="9" fill="#72e2dc" filter="url(#glow)"/>
+  <circle cx="344" cy="374" r="8" fill="#8e78ff" filter="url(#glow)"/>
+</svg>

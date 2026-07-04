@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RITA MARILIZA | Portfólio</title>
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/rm-logo-favicon.png?v=rm-logo-circle" />
+    <link rel="stylesheet" href="styles.css?v=pending-card-state" />
+    <script defer src="script.js?v=pending-card-state"></script>
+  </head>
+  <body>
+    <canvas class="constellation-canvas" aria-hidden="true"></canvas>
+    <div class="cursor-aura" aria-hidden="true">
+      <svg viewBox="0 0 32 32" focusable="false">
+        <path d="M6 4L25 16L16 18.2L12.2 27L6 4Z" />
+      </svg>
+    </div>
+
+    <header class="site-header" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Voltar para o início" title="Voltar para o início" data-home-link>
+        <span class="brand__mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="brand__text">RITA MARILIZA</span>
+      </a>
+      <nav class="main-nav" aria-label="Seções do portfólio">
+        <a class="main-nav__link is-active" href="#inicio">Início</a>
+        <a class="main-nav__link" href="#sobre">Sobre</a>
+        <a class="main-nav__link" href="#projetos">Projetos</a>
+        <a class="main-nav__link" href="#contato">Contato</a>
+      </nav>
+      <a class="icon-link" href="#contato" aria-label="Contato"><span aria-hidden="true">☾</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <img class="hero__image" src="assets/hero-space.svg" alt="" />
+        <div class="hero__content">
+          <p class="hero__eyebrow" data-typewriter="Portfólio Rita Mariliza" aria-label="Portfólio Rita Mariliza">
+            <span class="hero__eyebrow-text" aria-hidden="true"></span>
+          </p>
+          <h1 id="hero-title">Criando experiências <br />que <span class="hero-word" aria-label="iluminam"><span class="hero-letter" aria-hidden="true">i</span><span class="hero-letter" aria-hidden="true">l</span><span class="hero-letter" aria-hidden="true">u</span><span class="hero-letter" aria-hidden="true">m</span><span class="hero-letter" aria-hidden="true">i</span><span class="hero-letter" aria-hidden="true">n</span><span class="hero-letter" aria-hidden="true">a</span><span class="hero-letter" aria-hidden="true">m</span></span> ideias.</h1>
+          <p class="hero__subtitle">Desenvolvedora front-end apaixonada por transformar código em interfaces intuitivas, bonitas e funcionais.</p>
+          <a class="hero__button" href="#projetos">Ver meus projetos <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="projects" id="projetos" aria-labelledby="projects-title">
+        <div class="projects__heading">
+          <span class="orbit-icon" aria-hidden="true"></span>
+          <p class="section-kicker">Projetos</p>
+          <h2 id="projects-title">Escolha uma órbita</h2>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="about section-shell" id="sobre" aria-labelledby="about-title">
+        <div class="about__copy">
+          <p class="section-kicker">Sobre</p>
+          <h2 id="about-title">Interfaces com atmosfera, clareza e intenção.</h2>
+          <p>Crio interfaces front-end com atenção ao visual, à responsividade e aos detalhes de interação. Cada projeto abaixo pode receber seu link real e abrir diretamente a experiência publicada.</p>
+        </div>
+        <div class="about__profile" aria-label="Foto de perfil de Rita Mariliza">
+          <span class="about__orbit about__orbit--one" aria-hidden="true"></span>
+          <span class="about__orbit about__orbit--two" aria-hidden="true"></span>
+          <img class="about__photo" src="assets/perfil-rita-mariliza.jpg" alt="Retrato de Rita Mariliza" />
+        </div>
+      </section>
+
+      <section class="contact" id="contato" aria-labelledby="contact-title">
+        <div class="contact__heading">
+          <p class="section-kicker">Contato</p>
+          <h2 id="contact-title">Vamos colocar seus projetos em destaque.</h2>
+        </div>
+        <div class="contact__links" aria-label="Links de contato">
+          <a class="contact__social" href="https://mail.google.com/mail/?view=cm&fs=1&to=ritamariliza@gmail.com&su=Contato%20pelo%20portf%C3%B3lio&body=Ol%C3%A1%2C%20Rita!%0A%0AVim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%3A%0A%0A" target="_blank" rel="noopener" aria-label="Enviar e-mail para Rita Mariliza">
+            <span class="contact__social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4.5 7.25 12 12.9l7.5-5.65" />
+                <path d="M5.25 6h13.5A1.25 1.25 0 0 1 20 7.25v9.5A1.25 1.25 0 0 1 18.75 18H5.25A1.25 1.25 0 0 1 4 16.75v-9.5A1.25 1.25 0 0 1 5.25 6Z" />
+              </svg>
+            </span>
+            <span class="contact__social-label">Gmail</span>
+          </a>
+          <a class="contact__social" href="https://www.instagram.com/r.marilize/" target="_blank" rel="noopener" aria-label="Abrir Instagram de Rita Mariliza">
+            <span class="contact__social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <rect x="5" y="5" width="14" height="14" rx="4" />
+                <circle cx="12" cy="12" r="3.2" />
+                <circle cx="16.6" cy="7.4" r=".7" />
+              </svg>
+            </span>
+            <span class="contact__social-label">Instagram</span>
+          </a>
+          <a class="contact__social" href="https://www.linkedin.com/in/ritamariliza/?skipRedirect=true" target="_blank" rel="noopener" aria-label="Abrir LinkedIn de Rita Mariliza">
+            <span class="contact__social-icon contact__social-icon--text" aria-hidden="true">in</span>
+            <span class="contact__social-label">LinkedIn</span>
+          </a>
+          <a class="contact__social" href="https://github.com/RitaMarilize" target="_blank" rel="noopener" aria-label="Abrir GitHub de Rita Mariliza">
+            <span class="contact__social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M9.2 19.2c-4.1 1.2-4.1-2-5.8-2.4m11.2 4.2v-3.4c0-1 .1-1.4-.5-2 2.6-.3 5.4-1.3 5.4-5.8a4.5 4.5 0 0 0-1.2-3.1 4.1 4.1 0 0 0-.1-3.1s-1-.3-3.3 1.2a11.3 11.3 0 0 0-6 0C6.6 3.3 5.6 3.6 5.6 3.6a4.1 4.1 0 0 0-.1 3.1 4.5 4.5 0 0 0-1.2 3.1c0 4.5 2.8 5.5 5.4 5.8-.4.4-.6.8-.6 1.5V21" />
+              </svg>
+            </span>
+            <span class="contact__social-label">GitHub</span>
+          </a>
+          <span class="contact__social contact__social--pending" aria-label="Discord aguardando link">
+            <span class="contact__social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M8.3 8.2c2.5-.9 5-.9 7.4 0m-8.1 8.1c2.9 1.5 5.9 1.5 8.8 0m-10.9.9c-1.1-3.3-.7-6.3 1.2-9.9 1.3-.8 2.5-1.2 3.8-1.4l.5 1c.7-.1 1.4-.1 2.1 0l.5-1c1.3.2 2.5.6 3.8 1.4 1.9 3.6 2.3 6.6 1.2 9.9-1.4 1.1-2.7 1.7-4.1 2l-.8-1.1a9 9 0 0 1-3.4 0l-.8 1.1c-1.4-.3-2.7-.9-4.1-2Z" />
+                <circle cx="9.5" cy="12.1" r=".8" />
+                <circle cx="14.5" cy="12.1" r=".8" />
+              </svg>
+            </span>
+            <span class="contact__social-label">Discord</span>
+          </span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
