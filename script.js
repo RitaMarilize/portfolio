@@ -29,7 +29,7 @@ const projects = [
     link: "https://ritamarilize.github.io/fechamento/"
   },
   {
-    title: "Pixel Adventure",
+    title: "Lista de tarefas",
     description: "App web para criar, organizar e acompanhar tarefas com prioridade, filtros e progresso geral.",
     image: "assets/listatarefa.png",
     icon: "✦",
