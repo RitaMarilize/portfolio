@@ -30,10 +30,10 @@ const projects = [
   },
   {
     title: "Pixel Adventure",
-    description: "Jogo 2D em JavaScript com mecânicas de plataforma e estética retrô.",
+    description: "App web para criar, organizar e acompanhar tarefas com prioridade, filtros e progresso geral.",
     image: "assets/thumb-pixel.svg",
     icon: "✦",
-    link: "#"
+    link: "https://ritamarilize.github.io/listadetarefas/"
   }
 ];
 
